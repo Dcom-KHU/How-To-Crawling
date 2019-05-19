@@ -1,4 +1,4 @@
-
+import requests
 
 request_data = {'locgbn': 'K1', 'sch_date': '', 'fo_gbn': 'stu'}
 res_post = requests.post('https://dorm2.khu.ac.kr/dorm2/food/getWeeklyMenu.kmc', request_data)  # POST 방식
